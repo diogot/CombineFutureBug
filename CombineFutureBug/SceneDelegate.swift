@@ -29,6 +29,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             self.window = window
             window.makeKeyAndVisible()
         }
+
+        Bug().run()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
